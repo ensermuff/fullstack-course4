@@ -1,0 +1,101 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  justify-content: center; /* Center the sections horizontally */
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  border: 1px solid black;
+  background-color: grey;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  width: 30%;
+}
+
+span {
+  border: 1px solid black;
+  font-weight: bold;
+  padding: 0 10px;
+  width: 120px;
+  height: 25px;
+  padding: 3px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.subheader {
+  background-color: pink;
+  text-align: center;
+}
+.subheader2 {
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.subheader3 {
+  background-color: burlywood;
+  text-align: center;
+}
+
+p {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+}
+
+/********** Desktop devices view only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 30%;
+    margin-right: 2%;
+  }
+}
+
+/********** Tablet devices view only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 48%;
+    justify-content: space-between;
+    margin-right: 2%;
+  }
+  .col-md-6:nth-child(2) {
+    width: 48%;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 0;
+  }
+
+  /* Adjust the width of the third section to take up the entire row */
+  .col-md-6:last-child {
+    width: 100%;
+    margin-right: 0; /* Remove margin-right */
+  }
+}
+
+/********** Mobile devices view only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+}

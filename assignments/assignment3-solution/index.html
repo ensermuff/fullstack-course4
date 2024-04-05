@@ -1,9 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -13,16 +13,164 @@
     <![endif]-->
 
     <title>Bootstrap Starter Page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-<body>
 
-  <h1>Hello Coursera!</h1>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              <a href="index.html">
+                <h1>Food, LLC</h1>
+              </a>
+            </div>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#collapsable-nav"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class="visible-xs active">
+                <a href="#chicken-section">
+                  <br class="hidden-xs" />
+                  Chicken
+                </a>
+              </li>
+              <li class="visible-xs active">
+                <a href="#beef-section">
+                  <br class="hidden-xs" />
+                  Beef
+                </a>
+              </li>
+              <li class="visible-xs active">
+                <a href="#sushi-section"
+                  ><br class="hidden-xs" />
+                  Sushi</a
+                >
+              </li>
+            </ul>
+            <!-- #nav-list -->
+          </div>
+          <!-- .collapse .navbar-collapse -->
+        </div>
+      </nav>
+    </header>
+    <div id="main-content" class="container">
+      <h1>Our Menu</h1>
+      <div class="row">
+      <section class="col-md-4 col-sm-6 col-xs-12">
+        <h4>Chicken</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, animi
+          sit at fugiat quis molestiae magni quam odit facilis ad debitis
+          exercitationem suscipit accusamus voluptatibus distinctio blanditiis
+          rerum dignissimos soluta? Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Quo blanditiis eaque cumque nostrum doloribus?
+          Dolores deleniti sapiente autem accusantium quibusdam, adipisci
+          quaerat harum possimus ratione! Rem odio mollitia eos accusantium.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          suscipit sint quas explicabo aspernatur aliquid dicta accusantium,
+          exercitationem ex eum repudiandae at nesciunt, omnis odio laudantium
+          dignissimos laboriosam iure. Recusandae! Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Quasi magnam dignissimos accusamus harum
+          explicabo esse reprehenderit culpa consequuntur incidunt? Deserunt
+          deleniti magnam consectetur temporibus necessitatibus sequi aperiam.
+          Minima, illo voluptatum. Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Natus ex ipsa cumque minima fugiat. Non ipsum natus
+          pariatur necessitatibus magni consequatur, accusantium commodi
+          reiciendis eligendi sapiente, nihil quas, magnam eum? Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Ut facere doloremque
+          aspernatur odio repellendus provident, officia magnam amet qui
+          praesentium laborum quibusdam minus aliquam tenetur ratione mollitia,
+          aperiam nemo placeat! Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. <br />
+          <span class="visible-xs"
+            >(End of Chicken section) <a href="index.html">Back To Top</a></span
+          >
+        </p>
+      </section>
+
+      <section class="col-md-4 col-sm-6 col-xs-12">
+        <h4>Beef</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, animi
+          sit at fugiat quis molestiae magni quam odit facilis ad debitis
+          exercitationem suscipit accusamus voluptatibus distinctio blanditiis
+          rerum dignissimos soluta? Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Quo blanditiis eaque cumque nostrum doloribus?
+          Dolores deleniti sapiente autem accusantium quibusdam, adipisci
+          quaerat harum possimus ratione! Rem odio mollitia eos accusantium.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          suscipit sint quas explicabo aspernatur aliquid dicta accusantium,
+          exercitationem ex eum repudiandae at nesciunt, omnis odio laudantium
+          dignissimos laboriosam iure. Recusandae! Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Quasi magnam dignissimos accusamus harum
+          explicabo esse reprehenderit culpa consequuntur incidunt? Deserunt
+          deleniti magnam consectetur temporibus necessitatibus sequi aperiam.
+          Minima, illo voluptatum. Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Natus ex ipsa cumque minima fugiat. Non ipsum natus
+          pariatur necessitatibus magni consequatur, accusantium commodi
+          reiciendis eligendi sapiente, nihil quas, magnam eum? Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Ut facere doloremque
+          aspernatur odio repellendus provident, officia magnam amet qui
+          praesentium laborum quibusdam minus aliquam tenetur ratione mollitia,
+          aperiam nemo placeat! Lorem ipsum dolor sit amet consectetur
+          adipisicing elit.<br />
+          <span class="visible-xs"
+            >(End of Beef section) <a href="index.html">Back To Top</a></span
+          >
+        </p>
+      </section>
+
+      <section class="col-md-4 col-sm-12 col-xs-12">
+        <h4>Sushi</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, animi
+          sit at fugiat quis molestiae magni quam odit facilis ad debitis
+          exercitationem suscipit accusamus voluptatibus distinctio blanditiis
+          rerum dignissimos soluta? Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Quo blanditiis eaque cumque nostrum doloribus?
+          Dolores deleniti sapiente autem accusantium quibusdam, adipisci
+          quaerat harum possimus ratione! Rem odio mollitia eos accusantium.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+          suscipit sint quas explicabo aspernatur aliquid dicta accusantium,
+          exercitationem ex eum repudiandae at nesciunt, omnis odio laudantium
+          dignissimos laboriosam iure. Recusandae! Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Quasi magnam dignissimos accusamus harum
+          explicabo esse reprehenderit culpa consequuntur incidunt? Deserunt
+          deleniti magnam consectetur temporibus necessitatibus sequi aperiam.
+          Minima, illo voluptatum. Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Natus ex ipsa cumque minima fugiat. Non ipsum natus
+          pariatur necessitatibus magni consequatur, accusantium commodi
+          reiciendis eligendi sapiente, nihil quas, magnam eum? Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Ut facere doloremque
+          aspernatur odio repellendus provident, officia magnam amet qui
+          praesentium laborum quibusdam minus aliquam tenetur ratione mollitia,
+          aperiam nemo placeat! Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. <br />
+          <span class="visible-xs"
+            >(End of Sushi section) <a href="index.html">Back To Top</a></span
+          >
+        </p>
+      </section>
+    </div>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

@@ -5,11 +5,11 @@ This repository contains all of the source code used in the course called HTML, 
 
 
 ## Assignments:
-- assignment1 - Quiz
-- assignment2-solution - Coding
-- assignment3-solution - Coding
-- assignment4-solution - Coding
-- assignment5-solution - Coding
+- assignment1          => Quiz
+- assignment2-solution => Coding
+- assignment3-solution => Coding
+- assignment4-solution => Coding
+- assignment5-solution => Coding
   
 ## Outputs:
 - assignment2-solution

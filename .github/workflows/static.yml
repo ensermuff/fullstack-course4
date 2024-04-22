@@ -38,7 +38,7 @@ jobs:
         with:
           # Upload assignment5-solution index.html
           path: 'assignments/assignment5-solution/assignment5-solution-starter/'
-          name: 'index.html'
+          name: 'github-pages'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

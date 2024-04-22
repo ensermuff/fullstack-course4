@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload assignment5-solution index.html
-          path: 'assignments/assignment5-solution/assignment5-solution-starter/index.html'
+          path: 'assignments/assignment5-solution/assignment5-solution-starter/'
           name: 'index.html'
       - name: Deploy to GitHub Pages
         id: deployment

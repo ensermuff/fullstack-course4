@@ -10,7 +10,7 @@ This repository contains all of the source code used in the course called HTML, 
 - assignment3-solution - Coding
 - assignment4-solution - Coding
 - assignment5-solution - Coding
-- 
+  
 ## Outputs:
 - assignment2-solution
 - assignment3-solution
